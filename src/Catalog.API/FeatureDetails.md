@@ -1,7 +1,3 @@
----
-mermaid:
-    securityLevel: loose
----
 # eShop - Catalog HTTP API Documentation
 
 ## 1. Feature Overview
