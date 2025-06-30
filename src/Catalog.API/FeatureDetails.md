@@ -23,7 +23,7 @@ The Catalog API is a Data-Driven/CRUD microservice that manages the product cata
 
 ```mermaid
 sequenceDiagram
-    participant User as User / Client App(https://httpbin.org/)
+    participant User as [User / Client App](https://httpbin.org)
     participant CatalogAPI as Catalog API Endpoint
     participant CatalogServices as Catalog Services
     participant DB as Catalog Database
