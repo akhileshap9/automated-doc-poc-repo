@@ -21,10 +21,10 @@ The Catalog API is a Data-Driven/CRUD microservice that manages the product cata
 
 ### Business Flow Sequence Diagram
 
-```mermaid
+---
 mermaid:
-  securityLevel: 'loose'
-```
+  securityLevel: loose
+---
 ```mermaid
 sequenceDiagram
     participant User as User / Client App
