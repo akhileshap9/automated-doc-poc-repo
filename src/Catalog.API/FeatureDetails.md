@@ -28,7 +28,7 @@ sequenceDiagram
     participant CatalogServices as Catalog Services
     participant DB as Catalog Database
     participant EventBus as Event Bus (for notifications)
-    link CatalogAPI: https://github.com/akhileshap9/automated-doc-poc-repo/blob/main/src/Catalog.API/Apis/CatalogApi.cs
+    link CatalogAPI: source @ https://github.com/akhileshap9/automated-doc-poc-repo/blob/main/src/Catalog.API/Apis/CatalogApi.cs
     User->>CatalogAPI: API Request (e.g., Create/Update/List Product)
     CatalogAPI->>CatalogServices: Validate & Process Request
     CatalogServices->>DB: Query/Update Product Data
